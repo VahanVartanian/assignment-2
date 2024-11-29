@@ -1,7 +1,10 @@
-@import 'bootstrap-icons/font/bootstrap-icons.css';
-@import './node_modules/slick-carousel/slick/slick.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css'; /* imports bootstrap icons for use */
+@import './node_modules/slick-carousel/slick/slick.css'; /* imports slick carousel css */
 @import './node_modules/slick-carousel/slick/slick-theme.css';
-@tailwind base;
+
+/* this is the tailwind import */
+
+@tailwind base; 
 @tailwind components;
 @tailwind utilities;
 
